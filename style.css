@@ -1,0 +1,236 @@
+html{
+	font-size: 62.5%;
+	overflow-y: scroll;
+	font-family: 'Roboto Slab', serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+/*	height: 100%;*/
+	background-color: #FFE1AF;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+ul, ol{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+h1{
+	color: blue;
+	font-size: 4.5rem;
+}
+
+main{
+	display:  grid;
+	grid-template-columns:  1fr;
+	grid-template-rows: 0.3fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
+}
+
+header{
+	background-color: #FFE1AF;
+	height: 150px;
+	width: 100%;
+	margin-top: 0;
+}
+
+header h1{
+	padding: 20px 0 0 10px;
+}
+
+.manifestoExpl{
+	height: 300px;
+	background-color: #C6D57E;
+	width: 100%;
+}
+
+.manifestoExpl p{
+	margin: 20px 0 0 10px;
+	font-size: 2rem;
+}
+
+.manifestoPoint{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.manifestoPointContent{
+	background-color: rgba(76, 175, 80, 0.6);
+}
+
+.manifestoPointContent p, .manifestoPointContent h3{
+	margin-left: 10px;
+}
+
+.sandwichImg1, .sandwichImg3, .sandwichImg5{
+	height: 250px;
+	background-color: #D57E7E;
+}
+
+.sandwichImg2, .sandwichImg4, .sandwichImg6{
+	height: 250px;
+	background-color: #A2CDCD;
+}
+
+.sandwichImg1{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwichImg1 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.sandwich1{
+	background-image: url(2cd43b_32bcd4d0c2184e6d9ae0fbe62c7560bf_mv2_d_2750_2175_s_2.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: inherit;
+}
+
+.sandwichImg2{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwichImg2 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.sandwich2{
+	background-image: url(2cd43b_7e07fbe4680b46ed8950d5b71132cbab_mv2_d_4144_1911_s_2.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.sandwichImg3{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwichImg3 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.sandwich3{
+	background-image: url(2cd43b_224547de75d949a2a2d1166ebc48bb0a_mv2_d_2921_1828_s_2.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.sandwichImg4{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwich4{
+	background-image: url(2cd43b_822f93f87206428aa164754016072a61_mv2_d_2574_1982_s_2.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.sandwichImg4 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.sandwichImg5{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwich5{
+	background-image: url(2cd43b_77d7cfd9b63448da877ec74f4629c5ae_mv2_d_4251_2125_s_2.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.sandwichImg5 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.sandwichImg6{
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+.sandwich6{
+	background-image: url(oldDutchChips.png);
+	height: 200px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.sandwichImg6 h2{
+	font-size: 4rem;
+	margin-left: 10px;
+}
+
+.manifestoPointContent h3{
+	font-size: 3rem;
+}
+
+.manifestoPointContent p{
+	font-size: 1.7rem;
+}
+
+#opacity{
+	background-color: rgba(76, 175, 80, 0.4);
+}
+
+footer{
+	height: 10rem;
+	background-color: #FFE1AF;
+}
+
+footer h3{
+	margin: 10px 0 0 10px;
+}
+
+footer h4{
+	margin-left: 10px;
+}
+
+footer a{
+	margin-left: 10px;
+}
+
+footer a:hover{
+	color: blue;
+	font-weight: 900;
+}
